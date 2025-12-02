@@ -1,7 +1,8 @@
+#!/usr/bin/env python3
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import dh
 
-DH_PUBKEY_FILENAME = ""
+DH_PUBKEY_FILENAME = "lab3/pubdhkey.pem"
 DH_PARAMS_FILENAME = ""
 
 
@@ -20,6 +21,10 @@ def dh_params_from_public_pem(pub_pem: bytes) -> bytes:
         encoding=serialization.Encoding.PEM,
         format=serialization.ParameterFormat.PKCS3,
     )
+
+    # Check parameters
+    # params.parameter_numbers()
+
     return pem_params
 
 if __name__ == "__main__":
