@@ -22,7 +22,13 @@ source .venv/bin/activate
 
 > Please mind once you change the terminal window or close it, the `source` command will need to be rerun.
 
-Lasty, change directory to proper one and work on laboratory.
+# Installing OpenBao
+
+To install OpenBao please follow the guide [here](https://openbao.org/docs/install/)
+
+# Proceed to laboratory
+
+Change directory to proper one and work on laboratory.
 
 ```
 cd labN
