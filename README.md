@@ -26,6 +26,14 @@ source .venv/bin/activate
 
 To install OpenBao please follow the guide [here](https://openbao.org/docs/install/)
 
+## Install on Ubuntu AMD x64
+```
+curl -o bao.deb https://github.com/openbao/openbao/releases/download/v2.5.0-beta20251125/bao_2.5.0-beta20251125_linux_amd64.deb
+sudo dpkg -i bao.deb
+```
+
+
+
 # Proceed to laboratory
 
 Change directory to proper one and work on laboratory.
